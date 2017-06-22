@@ -1,5 +1,14 @@
+header {
+  background-image: url("http://rclens.fr/img/accueil_fevrier2017.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: leader;
+  height: 200px;
+}
+
 section {
   display: grid;
+  padding: 2px 0 2px 0;
 }
 
 .staff {
@@ -25,17 +34,18 @@ header {
   background-position: center;
   text-align: leader;
   height: 200px;
-}
-
-.logo {
-  /*background-image: url("http://rclens.fr/img/accueil_fevrier2017.jpg");*/
   text-align: top;
   text-transform: capitalize;
   text-decoration-style: solid;
-  position: relative;
   height: 200px;
   left: 0px;
   width: 100%;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 h1 {
