@@ -1,3 +1,44 @@
 section {
   display: grid;
 }
+
+.staff {
+  grid-row-start: 1;
+  text-align: center;
+}
+.goalkeepers {
+  grid-row-start: 2;
+}
+.defensers {
+  grid-row-start: 3;
+}
+.middles {
+  grid-row-start: 4;
+}
+.strikers {
+ grid-row-start: 5;
+}
+
+header {
+  background-image: url("http://rclens.fr/img/accueil_fevrier2017.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: leader;
+  height: 200px;
+}
+
+.logo {
+  /*background-image: url("http://rclens.fr/img/accueil_fevrier2017.jpg");*/
+  text-align: top;
+  text-transform: capitalize;
+  text-decoration-style: solid;
+  position: relative;
+  height: 200px;
+  left: 0px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: firebrick;
+}
