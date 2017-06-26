@@ -1,0 +1,22 @@
+body {
+	background-image: url(http://rclens.fr/img/bg/91.jpg);
+	/*background-image: url(/img/bg/81.jpg);*/
+	background-position: center top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+  	background-color: #000; 
+}	
+
+#titreSite {background-image: url(http://rclens.fr/img/titre3.png);}
+
+#prehome {background-image: url(http://rclens.fr/site/prehome/img/91.jpg);}
+#prehome #blocPage {
+	margin-top: 20px; margin-bottom: 20px; padding: 0;
+	/*background: transparent url(/site/prehome/img/bg_blocpage4.png) top center repeat-x;*/
+}
+#prehome .plexiHaut {background-image: url(http://rclens.fr/site/prehome/img/plexib_haut.png); margin-top:0; }
+#prehome .plexiBas {background-image: url(http://rclens.fr/site/prehome/img/plexib_bas.png); margin-bottom:0;}
+#prehome .plexiVide {background-image: none;}
+#prehome .plexiCadreBas {background-image: url(http://rclens.fr/site/prehome/img/plexib_cadrebas.png);}
+#prehome .plexiCadreHaut {background-image: url(http://rclens.fr/site/prehome/img/plexib_cadrehaut.png);}
+#prehome .plexiCadre {background-image: url(http://rclens.fr/site/prehome/img/plexib_cadre.png);}
